@@ -1,0 +1,306 @@
+@media screen and (max-width: 600px){
+
+    .container-fluid .row [class^="col-"]
+      {
+          width: 100%;
+          max-width: 100%;
+          display: block;
+          text-align: center;
+    justify-content: center;
+    align-items: center;
+          
+      }
+
+    /* .hamburger{
+        display: block;
+        width: 33px;
+        margin-left: 10px;
+        margin-top: 10px;
+    } */
+
+    .menu{
+        flex-direction: column;
+        margin-left: 50px;
+        width: 100%;
+    }
+
+
+    #navbar ul li .email1{
+        display: none;
+      }
+      
+      #navbar ul li .btn-dark{
+          display: none;
+      }
+
+      .burger{
+        display: block;
+      }
+
+      .h-nav-resp{
+        height: 100px;
+      }
+
+      .v-class-resp{
+        opacity: 0;
+      }
+
+      #navbar ul li a{
+        display: block;
+        text-decoration: underline;
+        background-color: black;
+      
+      }
+
+      #navbar ul li .nav-item{
+        background-color: black;
+      }
+
+      .card{
+        width: 75%;
+        margin-top:0px;
+        background-color: rgba(245, 245, 245,0);
+        color: white;
+        border: none;
+        margin-left: 15%;
+    }    
+
+    .card-title{
+        font-size: large;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .card-text{
+        font-family: medium;
+        text-align: center;
+        font-size: 45px;
+    }
+    
+    .card-text2{
+        font-size:large;
+        font-family: regular;
+        text-align: center;
+    }
+
+    .card-link{
+        margin-left: 60px;
+    }
+     
+     
+      /*info*/
+#info{
+    width: 100%;
+    max-width: 100%;
+}
+
+#info .p1{
+    width: 100%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+#info .p2{
+    margin-left:0px;
+    text-align: left;
+    font-size: 45px;
+    margin-top: 0px;
+}
+
+#info .p3{
+    width: 90%;
+    margin-left: 35px;
+    text-align: left;
+}
+
+
+#div4 {
+    width: 100%;
+}
+
+
+/*info2*/
+#info2 .img1{
+    width: 90%;
+}
+
+#info2 .img2{
+    width: 90%;
+    margin-top: 5%;
+}
+
+#info2 .img3{
+    width: 90%;
+    margin-top: 5%;
+}
+
+#info2 .img4{
+    width: 90%;
+    margin-top:5%
+}
+
+#info2 .img5{
+    width: 90%;
+    margin-top:5%
+}
+
+/*div3*/
+
+#div3{
+    width: 100%;
+    background-color: gray;
+    background-image: none;
+    height: 700px;
+    align-items: center;
+}
+
+#div3 .p1{
+    padding-right: 0px;
+     padding-left: 0px;
+     padding-top: 10%;
+}
+#div3 .p2{
+    margin-left: 20px;
+    padding-top: 10%;
+    font-size: 45px;
+    
+}
+
+#div3 .dl1{
+    margin-right: 0px;
+}
+
+#div3 .dl2{
+    margin-top:10%;
+     margin-left:0px;
+     
+}
+
+#div3 .start{
+    display: none;
+}
+
+/*div4*/
+
+#div4{
+    width: 100%;
+}
+
+#div4 .p2{
+    font-size: 35px;
+}
+
+
+
+
+/*about*/
+
+#about{
+    width: 100%;
+}
+
+#about .p1{
+    padding-right: 0px; 
+    padding-left: 0px;
+}
+
+#about .p2{
+    padding-left: 0px;
+    padding-top: 10%;
+}
+
+#about .p3{
+    margin-right: 20px;
+    margin-left: 2px;;
+}
+
+#about .btn-dark{
+    margin-top: 10%;
+    
+}
+
+#about .btn-outline-dark{
+    margin-top: 10%;
+}
+
+/*about2*/
+
+#about2{
+    width: 100%;
+}
+
+#about2 .card2{
+    margin-left: 0px;
+    margin-top: 10%;
+    width: 100%;
+    padding-right: 0px;
+}
+
+#about2 .card3{
+    margin-left: 0px;
+    width: 100%;
+
+}
+
+/*contacts*/
+
+
+#contacts{
+    width: 100%;
+}
+
+#contacts .p1{
+    font-size: 35px;
+}
+
+#contacts .email{
+    margin-left: 65px;
+
+}
+
+#contacts .c1{
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+#contacts .dl1{
+    margin-top:10%;
+    padding-right:0px;
+    padding-left: 0px;
+}
+
+#contacts .dl2, .dl3{
+    margin-top: 10%;
+}
+
+#contacts .form-switch{
+    display: none;
+}
+
+
+#contacts .dt3{
+    margin-top: 10%;
+}
+
+#contacts .dt4{
+    margin-top: 5px;
+    margin-left: 35px;
+    text-align: center;
+    font-size: medium;
+    }
+
+#contacts .dt5{
+    margin-top: 5px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: medium;
+}
+
+#contacts .dt6{
+    margin-top: 5px;
+    margin-left: 45px;
+    text-align: center;
+    font-size: medium;
+}
+
+}

@@ -1,0 +1,432 @@
+@font-face {
+    font-family: medium;
+    src: url(fonts/gilroy/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: semibold;
+    src: url(fonts/gilroy/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(fonts/gilroy/Gilroy-Regular.ttf);
+}
+
+.ham{
+    width: 33px;
+    display: none;
+}
+.activenew{
+    background-color: red !important;
+}
+  
+#header{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu{
+    display: flex;
+    gap: 1em;
+  font-size: 18px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px;
+}
+
+.burger{
+    margin-top: 3px;
+    display: none;
+}
+
+/* .my-nav{
+    width: 100%;
+    } */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li a{
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+
+}
+
+#navbar ul li .email1{
+    font-family: regular;
+    color: white;
+    display: flex;
+    align-items: end;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+#navbar ul li #about{
+    margin-left: 50px;
+}
+
+#navbar ul li a{
+    margin-top: 25px;
+}
+
+#navbar ul li .email1{
+  margin-left: 500px;
+}
+
+#navbar ul li .btn-dark{
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: gray;
+    color: black;
+}
+
+.card{
+    width: 25%;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: rgba(245, 245, 245,0);
+    color: white;
+    border: none;
+}
+
+.card-title{
+    font-size: x-small;
+    margin-bottom: 10px;
+    font-family: medium;
+}
+
+.card-text{
+    
+    font-family: medium;
+}
+
+.card-text2{
+    font-size: x-small;font-family: regular;
+}
+
+#div3{
+    background-image: url('div3.png');
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+
+}
+
+#div4{
+    background-image: url('div4.png');
+    width: 100%;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+#info .p1{
+      margin-left: 5%;
+      margin-right: 20%;
+      font-size: 20px;
+      font-family: medium;
+      color: black;
+}
+
+#info .p2{
+    font-size: 50px;
+     font-family: medium;
+     line-height: 1em;
+}
+
+#info .p3{
+    font-size: small;
+       font-size: 20px;
+       font-family: medium;
+       color: black;
+       line-height: 20px;
+       margin-right: 35%;
+       margin-left: 20%;
+}
+
+#info2{
+    margin-top:10%;
+}
+
+#info2 .img1{
+    height: 500px; 
+    border-radius: 25px;
+}
+
+#info2 .img2{
+    margin-top: 222px;
+    border-radius: 25px;
+}
+
+#info2 .img3{
+    margin-top: 350px;
+    border-radius: 25px;
+}
+
+#info2 .img4{
+     margin-top: 220px;
+     height: 280px;
+     border-radius: 25px;
+}
+
+#info2 .img5{
+    height: 500px;
+    border-radius: 25px;
+}
+
+#div3 .p1{
+    padding-right: 75px;
+     padding-left: 20px;
+      font-size: 20px;
+      padding-top: 75px;
+      font-family: medium;
+      color: black;
+}
+ 
+#div3 .p2{
+    font-size: 50px;
+    padding-top: 60px;
+    line-height: 1em;
+}
+
+#div3 .dl1{
+    margin-top: 65px;
+    font-family: medium;
+}
+
+#div3 .img1{
+    width: 60px;
+}
+
+#div3 .dt2 {
+    font-size: 20px;
+    font-family: medium;
+}
+
+#div3 .dl2{
+    margin-top: 270px;
+     margin-left: 110px;
+     font-family: medium;
+}
+
+#div3 .img2{
+    width: 60px;
+}
+
+#div3 .start{
+    color: white;
+    margin-top: 590px;
+     margin-left: 60px;
+      background-color: #D3504E;
+      font-family: regular;
+}
+
+#div4 .p1{
+    text-align: center;
+    font-size: smaller;
+     padding-top: 40px; 
+     color: white;
+     font-family: medium;
+}
+
+#div4 .p2{
+    text-align: center;
+     font-size: 45px;
+      color: white;
+       font-family: medium;
+}
+
+#div4 .p3{
+    text-align: center;
+    font-size: small; 
+    color: white;
+    font-family: regular;
+}
+
+#div4 .btn-light{
+    font-family: medium;
+}
+
+#div4 .span1, #about .span1{
+    font-size: small;font-family: semibold;
+}
+
+#div4 .span2, #about .span2{
+    font-size: 30px;
+    font-family: medium;
+}
+
+#about .p1{
+    padding-right: 50px; 
+    padding-left: 20px; 
+    font-size: 20px;
+    font-family: medium;
+}
+
+#about .p2{
+    font-size: 50px;
+     padding-top: 40px;
+      padding-left: 80px;
+      font-family: medium;
+      line-height: 1em;
+}
+
+#about .p3{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#about .btn-dark{
+    margin-top: 100px;
+    font-family: medium;
+}
+
+#about .btn-outline-dark{
+    margin-top: 100px;
+}
+
+#about .div1{
+    padding-right: 160px;
+    padding-left: 90px;
+    font-family: medium;
+}
+
+#about2 .card2{
+    width: 500px;
+     background-color: #F6F6F8;
+      margin-top:150px;
+      padding-right: 75px;
+       margin-left: 350px;
+       border-radius: 25px;
+}
+
+#about2 .card-title{
+    font-size: 30px;
+    font-family: medium;
+    color: black;
+}
+
+#about2 .text2{
+    font-family: regular;
+    color: black;
+}
+
+#about2 .img1{
+    width: 50px;
+}
+
+#about2 .span1{
+    font-size: 40px;font-family: medium;
+}
+
+#about2 .card3{
+    width: 400px; background-color: #F6F6F8;border-radius: 25px;
+}
+
+
+/* contacts*/
+
+#contacts{
+    background-color: #F6F6F8;border-radius: 25px;
+}
+
+#contacts .c1{
+    padding-left: 50px;
+}
+
+#contacts .img1{
+    width: 150px;
+}
+#contacts .p1{
+    font-size: 40px; margin-bottom: 30px;font-family: semibold;line-height: 1em;
+}
+
+#contacts .p2{
+    font-family: semibold;
+}
+
+#contacts .btn-dark{
+    font-family: medium;
+}
+
+#contacts .p3{
+    font-weight: bold; font-size: small; font-family: semibold;
+}
+
+#contacts .email{
+    text-decoration: none; color: black;
+}
+
+#contacts .span1{
+    margin-left: 50px;
+}
+
+#contacts .dl1{
+    margin-top: 185px;padding-right: 120px;padding-left: 150px;
+}
+
+#contacts .dt1{
+    font-size: medium;font-family: semibold;
+}
+
+#contacts .dd1{
+    margin-top: 40px; font-size: small;font-family: regular;
+}
+
+#contacts .dt2{
+    margin-top: 20px;font-size: large;font-family: semibold;
+}
+
+#contacts .dd2{
+    font-size: small;font-family: regular
+}
+
+#contacts .form-switch{
+    --bs-form-switch-width:20px;--bs-form-switch-height:20px; margin-top: 50px;
+}
+
+#contacts .dl2, .dl3{
+    margin-top: 185px;
+}
+
+#contacts .dt3{
+    font-size: medium;font-family: semibold;
+}
+
+#contacts .dt4, .dt5, .dt6, .dt7, .dt8, .dt9{
+margin-top: 20px;
+}
+
+#contacts .inst, .fb, .tt, .home, .quest, .about, .contacts{
+    text-decoration: none; color: black;font-size: small;font-family: regular;
+}
+
